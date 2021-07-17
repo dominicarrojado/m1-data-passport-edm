@@ -47,6 +47,15 @@
         .mobile-hide {
           display: none !important;
         }
+
+        .mobile-center,
+        .mobile-center > div {
+          text-align: center !important;
+        }
+
+        .mobile-center > table {
+          margin: 0 auto !important;
+        }
       }
     </mj-style>
     <!-- END of Internal/Mobile Styles -->
@@ -125,7 +134,7 @@
             <mj-image
               href="https://www.m1.com.sg/Mobile/mobile-add-ons/Roaming/data-passport"
               rel="noopener noreferrer nofollow"
-              src="images/banner-m1-6-stunning-secret-places.png"
+              src="images/banner-m1-data-passport-6-stunning-secret-places.png"
               alt="M1 Data PassPort - 6 Stunning Secret Places Most Tourists Don't Know About"
             />
           </mj-column>
@@ -163,6 +172,7 @@
         </mj-column>
         <mj-column vertical-align="middle" padding="0 10px 40px">
           <mj-text
+            css-class="mobile-center"
             color="#0181c9"
             font-size="26px"
             font-weight="bold"
@@ -171,7 +181,12 @@
           >
             Flores Island, Portugal
           </mj-text>
-          <mj-text padding-top="10px" color="#555555" font-size="16px">
+          <mj-text
+            css-class="mobile-center"
+            padding-top="10px"
+            color="#555555"
+            font-size="16px"
+          >
             Portugal's Flores Island is known locally as the "cape of flowers"
             because the area is just teeming with unique and colorful flora. The
             island also features natural hot springs, lagoons, flood rice
@@ -192,6 +207,7 @@
         </mj-column>
         <mj-column vertical-align="middle" padding="0 10px 40px">
           <mj-text
+            css-class="mobile-center"
             color="#0181c9"
             font-size="26px"
             font-weight="bold"
@@ -200,7 +216,12 @@
           >
             Watkins Glen State Park, New York
           </mj-text>
-          <mj-text padding-top="10px" color="#555555" font-size="16px">
+          <mj-text
+            css-class="mobile-center"
+            padding-top="10px"
+            color="#555555"
+            font-size="16px"
+          >
             As one of the most famous of the Finger Lakes State Parks in the
             United States of America, Watkins Glen State Park will leave you
             spellbound. Its natural beauty features waterfalls and gorges that
@@ -221,6 +242,7 @@
         </mj-column>
         <mj-column vertical-align="middle" padding="0 10px 40px">
           <mj-text
+            css-class="mobile-center"
             color="#0181c9"
             font-size="26px"
             font-weight="bold"
@@ -229,7 +251,12 @@
           >
             Hinatuan Enchanted River, Philippines
           </mj-text>
-          <mj-text padding-top="10px" color="#555555" font-size="16px">
+          <mj-text
+            css-class="mobile-center"
+            padding-top="10px"
+            color="#555555"
+            font-size="16px"
+          >
             Experience the magic of the Hinatuan Enchanted River in the
             Philippines. It's a pristine saltwater river that flows into the
             Pacific Ocean. Locals have long believed the clear 24 meter deep
@@ -251,6 +278,7 @@
         </mj-column>
         <mj-column vertical-align="middle" padding="0 10px 40px">
           <mj-text
+            css-class="mobile-center"
             color="#0181c9"
             font-size="26px"
             font-weight="bold"
@@ -259,7 +287,12 @@
           >
             Wave Rock, Australia
           </mj-text>
-          <mj-text padding-top="10px" color="#555555" font-size="16px">
+          <mj-text
+            css-class="mobile-center"
+            padding-top="10px"
+            color="#555555"
+            font-size="16px"
+          >
             Just a few hours from Perth stands the 15-meter high Wave Rock which
             stretches 110 meters through the flat Wheatbelt countryside. It's a
             unique geological wonder that has been around for three billion
@@ -280,6 +313,7 @@
         </mj-column>
         <mj-column vertical-align="middle" padding="0 10px 40px">
           <mj-text
+            css-class="mobile-center"
             color="#0181c9"
             font-size="26px"
             font-weight="bold"
@@ -288,7 +322,12 @@
           >
             Zao Fox Village, Japan
           </mj-text>
-          <mj-text padding-top="10px" color="#555555" font-size="16px">
+          <mj-text
+            css-class="mobile-center"
+            padding-top="10px"
+            color="#555555"
+            font-size="16px"
+          >
             The Miyagi Zao mountain isn't just scenic, the area also plays host
             to the Zao Fox Village. A place where you can hang out with six
             different species of adorable foxes. Make your trip unforgettable by
@@ -309,6 +348,7 @@
         </mj-column>
         <mj-column vertical-align="middle" padding="0 10px 40px">
           <mj-text
+            css-class="mobile-center"
             color="#0181c9"
             font-size="26px"
             font-weight="bold"
@@ -317,7 +357,12 @@
           >
             Ko Adang, Thailand
           </mj-text>
-          <mj-text padding-top="10px" color="#555555" font-size="16px">
+          <mj-text
+            css-class="mobile-center"
+            padding-top="10px"
+            color="#555555"
+            font-size="16px"
+          >
             Still under the radar of most tourists is the beautiful Thai island
             of Ko Adang. The 30-square kilometer island located within Tarutao
             National Marine Park has beautiful white sand beaches, stunning
@@ -345,6 +390,7 @@
         <mj-group>
           <mj-column width="100%">
             <mj-text
+              css-class="mobile-center"
               align="center"
               color="#f57002"
               font-size="25px"
@@ -356,6 +402,7 @@
               you have to lose connection.
             </mj-text>
             <mj-text
+              css-class="mobile-center"
               padding-top="10px"
               align="center"
               color="#555555"
