@@ -1,0 +1,514 @@
+<mjml>
+  <mj-head>
+    <mj-title> M1 Data Passport - Dominic Arrojado </mj-title>
+
+    <!-- START of Global Attributes -->
+    <mj-breakpoint width="800px" />
+    <mj-attributes>
+      <mj-all padding="0" font-family="Arial" line-height="1.4" />
+    </mj-attributes>
+    <!-- END of Global Attributes -->
+
+    <!-- START of Inline Style Overrides -->
+    <!-- prettier-ignore -->
+    <mj-style inline="inline">
+      .btn-text-sm,
+      .btn-text-md {
+        display: inline;
+        margin: 0;
+        background: transparent;
+        color: #f57002;
+        font-family: Arial;
+        line-height: 1.4;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+
+      .btn-text-md {
+        font-size: 16px;
+      }
+
+      .btn-text-sm {
+        font-size: 12px;
+      }
+    </mj-style>
+    <!-- END of Inline Style Overrides -->
+
+    <!-- START of Internal/Mobile Styles -->
+    <!-- prettier-ignore -->
+    <mj-style>
+      .btn-text-hover a:hover,
+      a.btn-text-hover:hover {
+        cursor: pointer !important;
+        text-decoration: none !important;
+      }
+
+      @media only screen and (max-width: 799px) {
+        .mobile-hide {
+          display: none !important;
+        }
+      }
+    </mj-style>
+    <!-- END of Internal/Mobile Styles -->
+
+    <mj-raw>
+      <!-- START of Google Tag Manager -->
+      <script>
+        if (window.location.hostname !== "localhost") {
+          (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+            var f = d.getElementsByTagName(s)[0],
+              j = d.createElement(s),
+              dl = l != "dataLayer" ? "&l=" + l : "";
+            j.async = true;
+            j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+            f.parentNode.insertBefore(j, f);
+          })(window, document, "script", "dataLayer", "GTM-TSMLTPT");
+        }
+      </script>
+      <!-- END of Google Tag Manager -->
+
+      <link rel="icon" href="https://dominicarrojado.com/favicon.ico" />
+      <meta name="theme-color" content="#d7e1e9" />
+      <meta name="description" content="Email template for M1 Data Passport" />
+      <link
+        rel="canonical"
+        href="https://dominicarrojado.com/m1-data-passport-edm/"
+      />
+      <meta property="og:locale" content="en_US" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="M1 Data Passport - Dominic Arrojado" />
+      <meta
+        property="og:description"
+        content="Email template for M1 Data Passport"
+      />
+      <meta
+        property="og:url"
+        content="https://dominicarrojado.com/m1-data-passport-edm/"
+      />
+      <meta
+        property="og:site_name"
+        content="M1 Data Passport - Dominic Arrojado"
+      />
+      <meta
+        property="og:image"
+        content="https://dominicarrojado.com/m1-data-passport-edm/images/axa-september-promo-screenshot.png"
+      />
+      <meta
+        property="og:image:secure_url"
+        content="https://dominicarrojado.com/m1-data-passport-edm/images/axa-september-promo-screenshot.png"
+      />
+      <meta property="og:image:width" content="2880" />
+      <meta property="og:image:height" content="1800" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta
+        name="twitter:description"
+        content="Email template for M1 Data Passport"
+      />
+      <meta
+        name="twitter:title"
+        content="M1 Data Passport - Dominic Arrojado"
+      />
+      <meta
+        name="twitter:image"
+        content="https://dominicarrojado.com/m1-data-passport-edm/images/axa-september-promo-screenshot.png"
+      />
+    </mj-raw>
+  </mj-head>
+  <mj-body width="800px" background-color="#f6f6f6">
+    <mj-wrapper background-url="images/bg.png" background-color="#bce4fa">
+      <!-- START of Hero Image -->
+      <mj-section padding-top="20px">
+        <mj-group>
+          <mj-column width="100%">
+            <mj-image
+              src="images/banner-m1-6-stunning-secret-places.png"
+              alt="M1 Data PassPort - 6 Stunning Secret Places Most Tourists Don't Know About"
+            />
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <!-- END of Hero Image -->
+
+      <!-- START of Introduction -->
+      <mj-section padding="15px 15px 0">
+        <mj-group>
+          <mj-column width="100%">
+            <mj-text
+              align="center"
+              color="#005da9"
+              font-size="20px"
+              font-weight="bold"
+            >
+              Plan a trip to some of these exotic locales this
+              <br class="mobile-hide" />holiday season and discover the secret
+              wonders this <br class="mobile-hide" />world has to offer.
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <!-- START of Introduction -->
+
+      <!-- START of Flores Island -->
+      <mj-section padding="20px 20px 0">
+        <mj-column vertical-align="middle" padding="0 10px 20px">
+          <mj-image
+            align="center"
+            src="images/picture-flores-island.png"
+            alt="A picture of Flores Island, Portugal"
+          />
+        </mj-column>
+        <mj-column vertical-align="middle" padding="0 10px 40px">
+          <mj-text
+            color="#0181c9"
+            font-size="26px"
+            font-weight="bold"
+            line-height="1"
+            text-transform="uppercase"
+          >
+            Flores Island, Portugal
+          </mj-text>
+          <mj-text padding-top="10px" color="#555555" font-size="16px">
+            Portugal's Flores Island is known locally as the "cape of flowers"
+            because the area is just teeming with unique and colorful flora. The
+            island also features natural hot springs, lagoons, flood rice
+            fields, cozy villages, lakes, volcanoes and world-famous caves.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- END of Flores Island -->
+
+      <!-- START of Watkins Glen State Park -->
+      <mj-section padding="20px 20px 0" direction="rtl">
+        <mj-column vertical-align="middle" padding="0 10px 20px">
+          <mj-image
+            align="center"
+            src="images/picture-watkins-glen-state-park.png"
+            alt="A picture of Watkins Glen State Park, New York"
+          />
+        </mj-column>
+        <mj-column vertical-align="middle" padding="0 10px 40px">
+          <mj-text
+            color="#0181c9"
+            font-size="26px"
+            font-weight="bold"
+            line-height="1"
+            text-transform="uppercase"
+          >
+            Watkins Glen State Park, New York
+          </mj-text>
+          <mj-text padding-top="10px" color="#555555" font-size="16px">
+            As one of the most famous of the Finger Lakes State Parks in the
+            United States of America, Watkins Glen State Park will leave you
+            spellbound. Its natural beauty features waterfalls and gorges that
+            you just have to see to believe.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- END of Watkins Glen State Park -->
+
+      <!-- START of Hinatuan Enchanted River -->
+      <mj-section padding="20px 20px 0">
+        <mj-column vertical-align="middle" padding="0 10px 20px">
+          <mj-image
+            align="center"
+            src="images/picture-hinatuan-enchanted-river.png"
+            alt="A picture of Hinatuan Enchanted River, Philippines"
+          />
+        </mj-column>
+        <mj-column vertical-align="middle" padding="0 10px 40px">
+          <mj-text
+            color="#0181c9"
+            font-size="26px"
+            font-weight="bold"
+            line-height="1"
+            text-transform="uppercase"
+          >
+            Hinatuan Enchanted River, Philippines
+          </mj-text>
+          <mj-text padding-top="10px" color="#555555" font-size="16px">
+            Experience the magic of the Hinatuan Enchanted River in the
+            Philippines. It's a pristine saltwater river that flows into the
+            Pacific Ocean. Locals have long believed the clear 24 meter deep
+            river to be miraculous, and when you see its beauty in person you'll
+            find out why.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- END of Hinatuan Enchanted River -->
+
+      <!-- START of Wave Rock -->
+      <mj-section padding="20px 20px 0" direction="rtl">
+        <mj-column vertical-align="middle" padding="0 10px 20px">
+          <mj-image
+            align="center"
+            src="images/picture-wave-rock.png"
+            alt="A picture of Wave Rock, Australia"
+          />
+        </mj-column>
+        <mj-column vertical-align="middle" padding="0 10px 40px">
+          <mj-text
+            color="#0181c9"
+            font-size="26px"
+            font-weight="bold"
+            line-height="1"
+            text-transform="uppercase"
+          >
+            Wave Rock, Australia
+          </mj-text>
+          <mj-text padding-top="10px" color="#555555" font-size="16px">
+            Just a few hours from Perth stands the 15-meter high Wave Rock which
+            stretches 110 meters through the flat Wheatbelt countryside. It's a
+            unique geological wonder that has been around for three billion
+            years, and one you definitely shouldn't miss.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- END of Wave Rock -->
+
+      <!-- START of Zao Fox Village -->
+      <mj-section padding="20px 20px 0">
+        <mj-column vertical-align="middle" padding="0 10px 20px">
+          <mj-image
+            align="center"
+            src="images/picture-zao-fox-village.png"
+            alt="A picture of Zao Fox Village, Japan"
+          />
+        </mj-column>
+        <mj-column vertical-align="middle" padding="0 10px 40px">
+          <mj-text
+            color="#0181c9"
+            font-size="26px"
+            font-weight="bold"
+            line-height="1"
+            text-transform="uppercase"
+          >
+            Zao Fox Village, Japan
+          </mj-text>
+          <mj-text padding-top="10px" color="#555555" font-size="16px">
+            The Miyagi Zao mountain isn't just scenic, the area also plays host
+            to the Zao Fox Village. A place where you can hang out with six
+            different species of adorable foxes. Make your trip unforgettable by
+            visiting these wily animals as you take in the breathtaking views.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- END of Zao Fox Village -->
+
+      <!-- START of Ko Adang -->
+      <mj-section padding="20px 20px 0" direction="rtl">
+        <mj-column vertical-align="middle" padding="0 10px 20px">
+          <mj-image
+            align="center"
+            src="images/picture-ko-adang.png"
+            alt="A picture of Ko Adang, Thailand"
+          />
+        </mj-column>
+        <mj-column vertical-align="middle" padding="0 10px 40px">
+          <mj-text
+            color="#0181c9"
+            font-size="26px"
+            font-weight="bold"
+            line-height="1"
+            text-transform="uppercase"
+          >
+            Ko Adang, Thailand
+          </mj-text>
+          <mj-text padding-top="10px" color="#555555" font-size="16px">
+            Still under the radar of most tourists is the beautiful Thai island
+            of Ko Adang. The 30-square kilometer island located within Tarutao
+            National Marine Park has beautiful white sand beaches, stunning
+            coral reefs and lush hills that is just a joy to explore.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- END of Ko Adang -->
+
+      <!-- START of Clouds -->
+      <mj-section>
+        <mj-group>
+          <mj-column width="100%">
+            <mj-image src="images/clouds.png" alt="Clouds" />
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <!-- END of Clouds -->
+    </mj-wrapper>
+
+    <!-- START of Footer -->
+    <mj-wrapper background-color="#ffffff" padding-bottom="50px">
+      <!-- START of Footer Title -->
+      <mj-section padding="0 15px">
+        <mj-group>
+          <mj-column width="100%">
+            <mj-text
+              align="center"
+              color="#f57002"
+              font-size="25px"
+              font-weight="bold"
+              line-height="1.2"
+              text-transform="uppercase"
+            >
+              Take the road less traveled <br class="mobile-hide" />doesn't mean
+              you have to lose connection.
+            </mj-text>
+            <mj-text
+              padding-top="10px"
+              align="center"
+              color="#555555"
+              font-size="16px"
+            >
+              Share your experiences at any of those wonderful hidden gems with
+              <a
+                href="https://www.m1.com.sg/Mobile/mobile-add-ons/Roaming/data-passport"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                class="btn-text-md btn-text-hover"
+                >M1 Data Passport</a
+              >. <br class="mobile-hide" />Use the local data of your mobile
+              plan to roam in 56 destinations across Asia, Europe,
+              <br class="mobile-hide" />and United States of America from just
+              $10/month per destination.
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <!-- END of Footer Title -->
+
+      <!-- START of Benefits -->
+      <mj-section padding="30px 50px 0">
+        <mj-column width="25%" padding-bottom="30px">
+          <mj-image
+            align="center"
+            src="images/icon-phone-check.png"
+            alt="Hand holding smartphone displaying check icon"
+            width="100px"
+          />
+          <mj-text
+            padding-top="15px"
+            align="center"
+            color="#333333"
+            font-size="14px"
+            font-weight="bold"
+            line-height="1.2"
+            text-transform="uppercase"
+          >
+            Easy activation before or during your trip
+          </mj-text>
+        </mj-column>
+        <mj-column width="25%" padding-bottom="30px">
+          <mj-image
+            align="center"
+            src="images/icon-phone-m1.png"
+            alt="Hand holding smartphone displaying M1 logo"
+            width="100px"
+          />
+          <mj-text
+            padding-top="15px"
+            align="center"
+            color="#333333"
+            font-size="14px"
+            font-weight="bold"
+            line-height="1.2"
+            text-transform="uppercase"
+          >
+            No bill shock <br class="mobile-hide" />with
+            <br class="mobile-hide" />network lock
+          </mj-text>
+        </mj-column>
+        <mj-column width="25%" padding-bottom="30px">
+          <mj-image
+            align="center"
+            src="images/icon-lock.png"
+            alt="Lock icon"
+            width="100px"
+          />
+          <mj-text
+            padding-top="15px"
+            align="center"
+            color="#333333"
+            font-size="14px"
+            font-weight="bold"
+            line-height="1.2"
+            text-transform="uppercase"
+          >
+            Keep track <br class="mobile-hide" />of data
+            <br class="mobile-hide" />passport usage
+          </mj-text>
+        </mj-column>
+        <mj-column width="25%" padding-bottom="30px">
+          <mj-image
+            align="center"
+            src="images/icon-people.png"
+            alt="3 people standing in line"
+            width="100px"
+          />
+          <mj-text
+            padding-top="15px"
+            align="center"
+            color="#333333"
+            font-size="14px"
+            font-weight="bold"
+            line-height="1.2"
+            text-transform="uppercase"
+          >
+            No standing <br class="mobile-hide" />in line
+            <br class="mobile-hide" />for local sim
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- END of Benefits -->
+
+      <!-- START of Subscribe Now -->
+      <mj-section padding="25px 15px 0">
+        <mj-group>
+          <mj-column width="100%">
+            <mj-image
+              href="https://web.m1.com.sg/dpp"
+              rel="noopener noreferrer nofollow"
+              src="images/btn-subscribe-now.png"
+              alt="Subscribe Now"
+              width="538px"
+            />
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <!-- END of Subscribe Now -->
+
+      <!-- START of Unsubscribe -->
+      <mj-section padding="30px 15px 0">
+        <mj-group>
+          <mj-column width="100%">
+            <mj-text align="center" color="#333333" font-size="12px">
+              If you wish to unsubscribe from our mailing list,
+              <a
+                href="https://www.m1.com.sg/mma"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                class="btn-text-sm btn-text-hover"
+                >click here</a
+              >
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <!-- END of Unsubscribe -->
+    </mj-wrapper>
+    <!-- END of Footer -->
+
+    <mj-raw>
+      <!-- START of Google Tag Manager (noscript) -->
+      <noscript>
+        <iframe
+          src="https://www.googletagmanager.com/ns.html?id=GTM-TSMLTPT"
+          height="0"
+          width="0"
+          style="display: none; visibility: hidden"
+        >
+        </iframe>
+      </noscript>
+      <!-- END of Google Tag Manager (noscript) -->
+    </mj-raw>
+  </mj-body>
+</mjml>
