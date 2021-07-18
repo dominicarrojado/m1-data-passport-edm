@@ -6,6 +6,48 @@
     <mj-breakpoint width="800px" />
     <mj-attributes>
       <mj-all padding="0" font-family="Arial" line-height="1.4" />
+
+      <mj-class name="place" padding="20px 20px 0" />
+      <mj-class
+        name="place-img-container"
+        vertical-align="middle"
+        padding="0 10px 20px"
+      />
+      <mj-class name="place-img" align="center" />
+      <mj-class
+        name="place-info"
+        vertical-align="middle"
+        padding="0 10px 40px"
+      />
+      <mj-class
+        name="place-title"
+        css-class="mobile-center"
+        color="#0181c9"
+        font-size="26px"
+        font-weight="bold"
+        line-height="1"
+        text-transform="uppercase"
+      />
+      <mj-class
+        name="place-desc"
+        css-class="mobile-center"
+        padding-top="10px"
+        color="#555555"
+        font-size="16px"
+      />
+
+      <mj-class name="benefit" width="25%" padding-top="30px" />
+      <mj-class name="benefit-img" align="center" width="100px" />
+      <mj-class
+        name="benefit-title"
+        padding-top="15px"
+        align="center"
+        color="#333333"
+        font-size="14px"
+        font-weight="bold"
+        line-height="1.2"
+        text-transform="uppercase"
+      />
     </mj-attributes>
     <!-- END of Global Attributes -->
 
@@ -162,31 +204,17 @@
       <!-- START of Introduction -->
 
       <!-- START of Flores Island -->
-      <mj-section padding="20px 20px 0">
-        <mj-column vertical-align="middle" padding="0 10px 20px">
+      <mj-section mj-class="place">
+        <mj-column mj-class="place-img-container">
           <mj-image
-            align="center"
+            mj-class="place-img"
             src="images/picture-flores-island.png"
             alt="A picture of Flores Island, Portugal"
           />
         </mj-column>
-        <mj-column vertical-align="middle" padding="0 10px 40px">
-          <mj-text
-            css-class="mobile-center"
-            color="#0181c9"
-            font-size="26px"
-            font-weight="bold"
-            line-height="1"
-            text-transform="uppercase"
-          >
-            Flores Island, Portugal
-          </mj-text>
-          <mj-text
-            css-class="mobile-center"
-            padding-top="10px"
-            color="#555555"
-            font-size="16px"
-          >
+        <mj-column mj-class="place-info">
+          <mj-text mj-class="place-title"> Flores Island, Portugal </mj-text>
+          <mj-text mj-class="place-desc">
             Portugal's Flores Island is known locally as the "cape of flowers"
             because the area is just teeming with unique and colorful flora. The
             island also features natural hot springs, lagoons, flood rice
@@ -197,31 +225,19 @@
       <!-- END of Flores Island -->
 
       <!-- START of Watkins Glen State Park -->
-      <mj-section padding="20px 20px 0" direction="rtl">
-        <mj-column vertical-align="middle" padding="0 10px 20px">
+      <mj-section mj-class="place" direction="rtl">
+        <mj-column mj-class="place-img-container">
           <mj-image
-            align="center"
+            mj-class="place-img"
             src="images/picture-watkins-glen-state-park.png"
             alt="A picture of Watkins Glen State Park, New York"
           />
         </mj-column>
-        <mj-column vertical-align="middle" padding="0 10px 40px">
-          <mj-text
-            css-class="mobile-center"
-            color="#0181c9"
-            font-size="26px"
-            font-weight="bold"
-            line-height="1"
-            text-transform="uppercase"
-          >
+        <mj-column mj-class="place-info">
+          <mj-text mj-class="place-title">
             Watkins Glen State Park, New York
           </mj-text>
-          <mj-text
-            css-class="mobile-center"
-            padding-top="10px"
-            color="#555555"
-            font-size="16px"
-          >
+          <mj-text mj-class="place-desc">
             As one of the most famous of the Finger Lakes State Parks in the
             United States of America, Watkins Glen State Park will leave you
             spellbound. Its natural beauty features waterfalls and gorges that
@@ -232,31 +248,19 @@
       <!-- END of Watkins Glen State Park -->
 
       <!-- START of Hinatuan Enchanted River -->
-      <mj-section padding="20px 20px 0">
-        <mj-column vertical-align="middle" padding="0 10px 20px">
+      <mj-section mj-class="place">
+        <mj-column mj-class="place-img-container">
           <mj-image
-            align="center"
+            mj-class="place-img"
             src="images/picture-hinatuan-enchanted-river.png"
             alt="A picture of Hinatuan Enchanted River, Philippines"
           />
         </mj-column>
-        <mj-column vertical-align="middle" padding="0 10px 40px">
-          <mj-text
-            css-class="mobile-center"
-            color="#0181c9"
-            font-size="26px"
-            font-weight="bold"
-            line-height="1"
-            text-transform="uppercase"
-          >
+        <mj-column mj-class="place-info">
+          <mj-text mj-class="place-title">
             Hinatuan Enchanted River, Philippines
           </mj-text>
-          <mj-text
-            css-class="mobile-center"
-            padding-top="10px"
-            color="#555555"
-            font-size="16px"
-          >
+          <mj-text mj-class="place-desc">
             Experience the magic of the Hinatuan Enchanted River in the
             Philippines. It's a pristine saltwater river that flows into the
             Pacific Ocean. Locals have long believed the clear 24 meter deep
@@ -268,31 +272,17 @@
       <!-- END of Hinatuan Enchanted River -->
 
       <!-- START of Wave Rock -->
-      <mj-section padding="20px 20px 0" direction="rtl">
-        <mj-column vertical-align="middle" padding="0 10px 20px">
+      <mj-section mj-class="place" direction="rtl">
+        <mj-column mj-class="place-img-container">
           <mj-image
-            align="center"
+            mj-class="place-img"
             src="images/picture-wave-rock.png"
             alt="A picture of Wave Rock, Australia"
           />
         </mj-column>
-        <mj-column vertical-align="middle" padding="0 10px 40px">
-          <mj-text
-            css-class="mobile-center"
-            color="#0181c9"
-            font-size="26px"
-            font-weight="bold"
-            line-height="1"
-            text-transform="uppercase"
-          >
-            Wave Rock, Australia
-          </mj-text>
-          <mj-text
-            css-class="mobile-center"
-            padding-top="10px"
-            color="#555555"
-            font-size="16px"
-          >
+        <mj-column mj-class="place-info">
+          <mj-text mj-class="place-title"> Wave Rock, Australia </mj-text>
+          <mj-text mj-class="place-desc">
             Just a few hours from Perth stands the 15-meter high Wave Rock which
             stretches 110 meters through the flat Wheatbelt countryside. It's a
             unique geological wonder that has been around for three billion
@@ -303,31 +293,17 @@
       <!-- END of Wave Rock -->
 
       <!-- START of Zao Fox Village -->
-      <mj-section padding="20px 20px 0">
-        <mj-column vertical-align="middle" padding="0 10px 20px">
+      <mj-section mj-class="place">
+        <mj-column mj-class="place-img-container">
           <mj-image
-            align="center"
+            mj-class="place-img"
             src="images/picture-zao-fox-village.png"
             alt="A picture of Zao Fox Village, Japan"
           />
         </mj-column>
-        <mj-column vertical-align="middle" padding="0 10px 40px">
-          <mj-text
-            css-class="mobile-center"
-            color="#0181c9"
-            font-size="26px"
-            font-weight="bold"
-            line-height="1"
-            text-transform="uppercase"
-          >
-            Zao Fox Village, Japan
-          </mj-text>
-          <mj-text
-            css-class="mobile-center"
-            padding-top="10px"
-            color="#555555"
-            font-size="16px"
-          >
+        <mj-column mj-class="place-info">
+          <mj-text mj-class="place-title"> Zao Fox Village, Japan </mj-text>
+          <mj-text mj-class="place-desc">
             The Miyagi Zao mountain isn't just scenic, the area also plays host
             to the Zao Fox Village. A place where you can hang out with six
             different species of adorable foxes. Make your trip unforgettable by
@@ -338,31 +314,17 @@
       <!-- END of Zao Fox Village -->
 
       <!-- START of Ko Adang -->
-      <mj-section padding="20px 20px 0" direction="rtl">
-        <mj-column vertical-align="middle" padding="0 10px 20px">
+      <mj-section mj-class="place" direction="rtl">
+        <mj-column mj-class="place-img-container">
           <mj-image
-            align="center"
+            mj-class="place-img"
             src="images/picture-ko-adang.png"
             alt="A picture of Ko Adang, Thailand"
           />
         </mj-column>
-        <mj-column vertical-align="middle" padding="0 10px 40px">
-          <mj-text
-            css-class="mobile-center"
-            color="#0181c9"
-            font-size="26px"
-            font-weight="bold"
-            line-height="1"
-            text-transform="uppercase"
-          >
-            Ko Adang, Thailand
-          </mj-text>
-          <mj-text
-            css-class="mobile-center"
-            padding-top="10px"
-            color="#555555"
-            font-size="16px"
-          >
+        <mj-column mj-class="place-info">
+          <mj-text mj-class="place-title"> Ko Adang, Thailand </mj-text>
+          <mj-text mj-class="place-desc">
             Still under the radar of most tourists is the beautiful Thai island
             of Ko Adang. The 30-square kilometer island located within Tarutao
             National Marine Park has beautiful white sand beaches, stunning
@@ -426,82 +388,46 @@
       <!-- END of Footer Title -->
 
       <!-- START of Benefits -->
-      <mj-section padding="30px 50px 0">
-        <mj-column width="25%" padding-bottom="30px">
+      <mj-section padding="0 50px">
+        <mj-column mj-class="benefit">
           <mj-image
-            align="center"
+            mj-class="benefit-img"
             src="images/icon-phone-check.png"
             alt="Hand holding smartphone displaying check icon"
-            width="100px"
           />
-          <mj-text
-            padding-top="15px"
-            align="center"
-            color="#333333"
-            font-size="14px"
-            font-weight="bold"
-            line-height="1.2"
-            text-transform="uppercase"
-          >
+          <mj-text mj-class="benefit-title">
             Easy activation before or during your trip
           </mj-text>
         </mj-column>
-        <mj-column width="25%" padding-bottom="30px">
+        <mj-column mj-class="benefit">
           <mj-image
-            align="center"
-            src="images/icon-phone-m1.png"
-            alt="Hand holding smartphone displaying M1 logo"
-            width="100px"
+            mj-class="benefit-img"
+            src="images/icon-lock.png"
+            alt="Lock icon"
           />
-          <mj-text
-            padding-top="15px"
-            align="center"
-            color="#333333"
-            font-size="14px"
-            font-weight="bold"
-            line-height="1.2"
-            text-transform="uppercase"
-          >
+          <mj-text mj-class="benefit-title">
             No bill shock <br class="mobile-hide" />with
             <br class="mobile-hide" />network lock
           </mj-text>
         </mj-column>
-        <mj-column width="25%" padding-bottom="30px">
+        <mj-column mj-class="benefit">
           <mj-image
-            align="center"
-            src="images/icon-lock.png"
-            alt="Lock icon"
-            width="100px"
+            mj-class="benefit-img"
+            src="images/icon-phone-m1.png"
+            alt="Hand holding smartphone displaying M1 logo"
           />
-          <mj-text
-            padding-top="15px"
-            align="center"
-            color="#333333"
-            font-size="14px"
-            font-weight="bold"
-            line-height="1.2"
-            text-transform="uppercase"
-          >
+          <mj-text mj-class="benefit-title">
             Keep track <br class="mobile-hide" />of data
             <br class="mobile-hide" />passport usage
           </mj-text>
         </mj-column>
-        <mj-column width="25%" padding-bottom="30px">
+        <mj-column mj-class="benefit">
           <mj-image
-            align="center"
+            mj-class="benefit-img"
             src="images/icon-people.png"
             alt="3 people standing in line"
-            width="100px"
           />
-          <mj-text
-            padding-top="15px"
-            align="center"
-            color="#333333"
-            font-size="14px"
-            font-weight="bold"
-            line-height="1.2"
-            text-transform="uppercase"
-          >
+          <mj-text mj-class="benefit-title">
             No standing <br class="mobile-hide" />in line
             <br class="mobile-hide" />for local sim
           </mj-text>
@@ -510,7 +436,7 @@
       <!-- END of Benefits -->
 
       <!-- START of Subscribe Now -->
-      <mj-section padding="25px 15px 0">
+      <mj-section padding="40px 15px 0">
         <mj-group>
           <mj-column width="100%">
             <mj-image
