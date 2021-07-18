@@ -1,0 +1,19 @@
+{
+  "name": "m1-data-passport-edm",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "mjml --watch src/index.mjml --output src/index.html",
+    "server": "live-server --host=localhost --open=src",
+    "dev": "concurrently \"yarn start\" \"yarn server\"",
+    "build": "mjml src/index.mjml --output src/index.html",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages --dist src"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "gh-pages": "^3.2.3",
+    "live-server": "^1.2.1",
+    "mjml": "^4.10.1"
+  }
+}
