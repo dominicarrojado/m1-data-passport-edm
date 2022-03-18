@@ -1,6 +1,6 @@
 <mjml>
   <mj-head>
-    <mj-title> M1 Data Passport - Dominic Arrojado </mj-title>
+    <mj-title> M1 Data Passport | Dominic Arrojado </mj-title>
 
     <!-- START of Global Attributes -->
     <mj-breakpoint width="800px" />
@@ -129,7 +129,7 @@
       />
       <meta property="og:locale" content="en_US" />
       <meta property="og:type" content="website" />
-      <meta property="og:title" content="M1 Data Passport - Dominic Arrojado" />
+      <meta property="og:title" content="M1 Data Passport | Dominic Arrojado" />
       <meta
         property="og:description"
         content="Email template for M1 Data Passport"
@@ -138,10 +138,7 @@
         property="og:url"
         content="https://dominicarrojado.com/m1-data-passport-edm/"
       />
-      <meta
-        property="og:site_name"
-        content="M1 Data Passport - Dominic Arrojado"
-      />
+      <meta property="og:site_name" content="Dominic Arrojado" />
       <meta
         property="og:image"
         content="https://dominicarrojado.com/m1-data-passport-edm/images/m1-data-passport-screenshot.png"
@@ -159,7 +156,7 @@
       />
       <meta
         name="twitter:title"
-        content="M1 Data Passport - Dominic Arrojado"
+        content="M1 Data Passport | Dominic Arrojado"
       />
       <meta
         name="twitter:image"
